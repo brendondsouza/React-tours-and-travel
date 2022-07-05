@@ -82,6 +82,7 @@ h4 {
 }
 h1 {
   font-size: 3rem;
+  margin-bottom: 0rem;
 }
 h2 {
   font-size: 2rem;
@@ -92,13 +93,29 @@ h3 {
 h4 {
   font-size: 0.875rem;
 }
+
+h6{
+  font-size: 1rem;
+}
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
+
+a{
+  color: white;
+}
+
+.header{
+  color: white;
+  background-color: hsl(209, 61%, 16%);
+  width: 100vw;
+  text-align: center;
+  font-size: 100rem;
+}
 @media screen and (min-width: 800px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   h2 {
     font-size: 2.5rem;
@@ -225,4 +242,27 @@ main {
   border: 1px solid var(--clr-red-dark);
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
+}
+
+.header{
+  color: white;
+  background-color: hsl(209, 61%, 16%);
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.footer{
+  color: white;
+  background-color: hsl(209, 61%, 16%);
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+header-img{
+ width: 3rem;
+ height: 3rem;
 }
